@@ -10,8 +10,8 @@ export const Counter = () => {
 
     return (
         <div>
-            <h1>{count}</h1>
-            <button onClick={increment}>increment</button>
+            <h1 className={"h1"}>{count}</h1>
+            <button className={'btn'} onClick={increment}>increment</button>
         </div>
     );
 };
