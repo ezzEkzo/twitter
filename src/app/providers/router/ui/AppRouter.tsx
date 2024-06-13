@@ -3,7 +3,6 @@ import {Route, Routes} from "react-router-dom";
 import {routeConfig} from "shared/config/routeConfig/routeConfig";
 
 const AppRouter = () => {
-    console.log(Object.values(routeConfig), "Object.values(routeConfig)")
 
     return (
         <Suspense fallback={"...Loading"}>
